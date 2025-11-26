@@ -82,14 +82,14 @@ export default function DoctorDashboard() {
 
   // ── Placeholder data; replace with API later ──────────────────────────
   const patients = [
-    { id: "P-1001", name: "Lara Croft", age: 45, lastVisit: "2025-10-09", condition: "Follow-up", lastReportId: "R-2041" },
-    { id: "P-1002", name: "Mark Taylor", age: 62, lastVisit: "2025-10-12", condition: "New scan", lastReportId: "R-2045" },
+    { id: "P-1001", name: "Asgher Bukhari", age: 45, lastVisit: "2025-10-09", condition: "Follow-up", lastReportId: "R-2041" },
+    { id: "P-1002", name: "Mujtaba Ahmad", age: 62, lastVisit: "2025-10-12", condition: "New scan", lastReportId: "R-2045" },
     { id: "P-1003", name: "Sofia Ali", age: 71, lastVisit: "2025-10-14", condition: "Monitoring", lastReportId: "R-2047" },
   ];
 
   const analyses = [
-    { id: "R-2045", patient: "Mark Taylor", finding: "Glioma", confidence: 0.89, date: "2025-10-18" },
-    { id: "R-2041", patient: "Lara Croft", finding: "No abnormality", confidence: 0.12, date: "2025-10-16" },
+    { id: "R-2045", patient: "Asgher Bukhari", finding: "Glioma", confidence: 0.89, date: "2025-10-18" },
+    { id: "R-2041", patient: "Mujtaba Ahmad", finding: "No abnormality", confidence: 0.12, date: "2025-10-16" },
     { id: "R-2047", patient: "Sofia Ali", finding: "AMCI suspected", confidence: 0.72, date: "2025-10-14" },
   ];
 
